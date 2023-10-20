@@ -19,9 +19,7 @@ const App = () => {
       <SuperQuality />
       <Services />
       <SpecialOffer />
-      <section className="padding bg-pale-blue">
-        <CustomerReviews />
-      </section>
+      <CustomerReviews />
       <section className="padding-x sm:py-32 py-16 w-full">
         <Subscribe />
       </section>
