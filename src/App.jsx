@@ -16,9 +16,7 @@ const App = () => {
       <Nav />
       <Hero />
       <PopularProducts />
-      <section className="padding">
-        <SuperQuality />
-      </section>
+      <SuperQuality />
       <section className="padding-x py-10">
         <Services />
       </section>
