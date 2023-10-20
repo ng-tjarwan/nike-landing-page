@@ -4,6 +4,7 @@ const Button = ({
   backgroundColor,
   borderColor,
   textColor,
+  fullWidth,
 }) => {
   return (
     <button
@@ -11,6 +12,7 @@ const Button = ({
         ${backgroundColor ? backgroundColor : "bg-coral-red"} 
         ${borderColor ? borderColor : "border-coral-red"} 
         ${textColor ? textColor : "text-white"} 
+        ${fullWidth && "w-full"} 
         flex justify-center items-center gap-2 px-7 py-4 border rounded-full font-montserrat text-lg leading-none
       `}
     >
