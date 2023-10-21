@@ -21,9 +21,7 @@ const App = () => {
       <SpecialOffer />
       <CustomerReviews />
       <Subscribe />
-      <section className="padding-x padding-t pb-8 bg-black">
-        <Footer />
-      </section>
+      <Footer />
     </main>
   );
 };
